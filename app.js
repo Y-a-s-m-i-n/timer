@@ -359,8 +359,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Startläge: 2 timers (men du kan lägga till/ta bort)
-  createTimer(1);
-  createTimer(2);
+  createTimer(4);
+  createTimer(3);
 
-  addTimerBtn.addEventListener('click', () => createTimer(2));
+  addTimerBtn.addEventListener('click', () => createTimer(5));
 });
